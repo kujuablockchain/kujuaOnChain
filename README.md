@@ -1,5 +1,7 @@
 # kujuaOnChain
-Kujua blockchain main functionalities. You can find more functionalities on the developer page at https://kujua.org/developer
+Kujua blockchain main functionalities. You only need to change the values in 'inputs.py' file to your own for the function you want to run.
+
+You can find more functionalities on the developer page at https://kujua.org/developer
 
 Creating a wallet address:
 ```python
