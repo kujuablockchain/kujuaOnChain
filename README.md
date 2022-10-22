@@ -82,7 +82,7 @@ broadcast = functions.broadcast(inputs.wallet.wallet_address,
                                 (None,),
                                 {},
                                 True,
-                                inputs.node.validator_node_url,
+                                inputs.node.gt_node_url,
                                 False)
 print(broadcast)
 ```
