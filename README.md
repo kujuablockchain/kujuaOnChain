@@ -84,3 +84,6 @@ broadcast = functions.broadcast(inputs.wallet.wallet_address,
                                 False)
 print(broadcast)
 ```
+You can then see your transaction on any running node or the blockchain explorer at http://testnet.kujua.org/explorer.
+
+These are the standard functionalities. If you wish to execute smart contracts for clusters, staking etc then see the developer page at https://kujua.org/developer and use the same downloaded library.
