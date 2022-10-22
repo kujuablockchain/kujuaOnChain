@@ -67,7 +67,7 @@ fees = functions.calculate_fees(inputs.dummy.amount,
 print(fees)
 
 broadcast = functions.broadcast(inputs.wallet.wallet_address,
-                                inputs.wallet.private_key_encrypted,  # only use a dummy address's private key until we make kujuaOffChainRelay public
+                                inputs.wallet.private_key_encrypted,  # only use a dummy address's private key until we make kujuaOffChain public
                                 inputs.wallet.passphrase,
                                 inputs.dummy.amount,
                                 fees['content']['full_fee'],
